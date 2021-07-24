@@ -18,7 +18,7 @@ public class BaseClass {
 		
 	}
 
-	@After("@NegativeLogin")
+	@After
 	public void teardown() {
 		
 		driver.quit();
